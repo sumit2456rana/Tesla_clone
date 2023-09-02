@@ -39,8 +39,17 @@ header svg {
 .right-ul li a {
   text-decoration: none;
   color: #000;
-  font-size: 1.2rem;
+  font-size: 16px;
+  font-weight: 500;
   margin: 0px 10px;
+}
+.middle-ul li a {
+  padding: 8px;
+}
+.middle-ul li a:hover {
+  backdrop-filter: blur(4px);
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 5px;
 }
 
 .sec {
@@ -152,7 +161,9 @@ button.demo {
 .list li {
   padding-left: 10px;
 }
-
+footer {
+  height: 100px;
+}
 @media (max-width: 1199px) {
   .menu {
     display: inline;
@@ -177,5 +188,6 @@ button.demo {
   }
   .carName {
     padding-top: 9rem;
+    text-align: center;
   }
 }
